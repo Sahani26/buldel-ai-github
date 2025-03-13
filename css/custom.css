@@ -13,6 +13,20 @@
     bottom: 0;
 
 }
+.drop-header h6 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.drop-header img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.drop-header a{
+    width: 130px;
+    height: 100px;
+}
 
 .robot-mian-right {
     position: absolute;
@@ -97,7 +111,15 @@
 .main-top {
     padding-top: 5rem !important;
 }
-
+/* .review-section img{
+    width: 100%;
+    height: 100%;
+} */
+.rounded-circle {
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+}
 .header {
     padding: 3.3px 0;
 }
@@ -110,7 +132,13 @@
     .robot-mian-right {
         display: none;
     }
-
+.header-flex-area {
+    flex-direction: column;
+    align-items: center;
+}
+.header-flex-area a{
+    margin: auto;
+}
     .robot-main {
         height: 140px;
         bottom: 0 !important;
