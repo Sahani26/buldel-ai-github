@@ -1,0 +1,230 @@
+.main-top {
+    background-image: url("../img-2/home-banner-bg-image.jpg");
+    position: relative;
+}
+
+.robot-main {
+    position: absolute;
+    content: " ";
+    height: 100%;
+    background-size: cover;
+    left: 0;
+    width: 30%;
+    bottom: 0;
+
+}
+
+.robot-mian-right {
+    position: absolute;
+    content: "";
+    height: 60%;
+    background-size: contain;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.robot-photo {
+    background-image: url("../img-2/robote.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: contain;
+    object-fit: cover;
+    width: 100%;
+    background-position-y: bottom;
+}
+
+.robot-photo-right {
+    background-image: url("../img-2/Home-bg-image.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    object-fit: contain;
+    background-position-x: right;
+
+}
+
+.handheld-toolbar-enabled {
+    overflow-x: hidden;
+}
+
+.btn-primary {
+    color: #000 !important;
+}
+
+.univercity img.d-block.mx-auto {
+    width: 120px;
+    height: 120px;
+}
+
+.college-project img.card-img-top {
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.over-text {
+    position: relative;
+    z-index: 9;
+}
+
+.download_app {
+    /* background-color: #ffcb36 !important; */
+    background-color: #DBEDEF !important;
+    background-image: none !important;
+}
+
+.download_app h2,
+.download_app p {
+    color: #003769 !important;
+    font-weight: 600;
+}
+
+.bg-darker {
+    background-color: #003769 !important;
+}
+
+.dropdown-menu.px-2.ps-0.pb-4 {
+    height: 425px !important;
+    overflow-y: auto;
+}
+
+.trend-project .card-body {
+    background-color: #f9be4a !important;
+}
+
+.main-top {
+    padding-top: 5rem !important;
+}
+
+.header {
+    padding: 3.3px 0;
+}
+
+.view-more-project {
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .robot-mian-right {
+        display: none;
+    }
+
+    .robot-main {
+        height: 140px;
+        bottom: 0 !important;
+        top: auto;
+        transform: none;
+    }
+
+    .robot-photo {
+
+        width: 175px;
+        height: 100%;
+
+    }
+
+    .container .mob-logo img {
+        width: 125px;
+    }
+
+    .container .mob-logo a {
+        padding: 0;
+    }
+
+    h3.widget-title.text-light.title {
+        background-color: #fecb34;
+        padding: 10px 5px;
+        color: #000 !important;
+        font-weight: 600;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .footer ul {
+        display: none;
+    }
+
+    .footer .pb-2 {
+        margin-bottom: 0 !important;
+    }
+
+    .footer ul.widget-list.list {
+        background-color: #fff;
+    }
+
+    .footer li a {
+        color: #000 !important;
+        padding: 2px 5px;
+    }
+
+    .footer li a:hover {
+        color: #fff !important;
+
+        background-color: #003769;
+    }
+
+    .footer .title {
+        margin: 0 0 1px;
+        background: url("../img-2/toggle-white.png") right center no-repeat;
+        padding: 10px 15px;
+        font-size: 20px;
+
+        cursor: pointer;
+    }
+
+    .mega-dropdown-column {
+        width: 100% !important;
+    }
+
+    .header {
+        padding-bottom: 0 !important;
+    }
+    .download-area{
+
+        justify-content: center;
+    }
+}
+@media (max-width:1000px){
+.project-toggle{
+    background: none !important;
+
+}
+
+
+
+}
+/* ===product */
+.project-toggle {
+
+    background: url("../img-2/arrow-down-sign-to-navigate.png") right center no-repeat;
+    background-size: 10px;
+    background-position-x: 130px;
+    background-position-y: 25px;
+    cursor: pointer;
+}
+.view-more-project a:hover{
+background-color: #003769;
+border-color: #003769;
+}
+    .download_phone img{
+        border-radius: 10px;
+
+
+    }
+
+    .download-area{
+        display: flex;
+        gap: 5px;
+
+    }
+    img.download-app-logo {
+        width: 100%;
+    }
+    a.download-app-link {
+        width: 115px;
+    }
+   .college-project .card-body.py-4.text-center {
+        min-height: 112px;
+    }
