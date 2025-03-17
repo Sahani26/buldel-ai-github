@@ -13,6 +13,16 @@
     bottom: 0;
 
 }
+.btn-group.dropdown.disable-autohide{
+    display: none;
+}
+section.container.pb-4.pt-lg-5.pb-sm-5{
+    display: none;
+}
+.col-lg-5.col-sm-6.offset-lg-1.pt-3.pt-sm-3.pb-3.download_phone{
+    width: 200px;
+    margin: 0 auto;
+}
 .drop-header h6 {
     white-space: nowrap;
     overflow: hidden;
@@ -124,6 +134,7 @@
     border-radius: 5% !important;
     width: 100%;
     min-height: 200px;
+    max-height: 200px;
 
 }
 .header {
